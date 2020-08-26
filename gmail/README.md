@@ -2,13 +2,13 @@
 The `mail-sender.py` sends the e-mail from a G-Mail client to the another client. Before sending e-mails from the python code, few pre-requisites have to be done
 
 ### Pre-requisites
-*   Create/Select a destination e-mail clinet.
+*   Create/Choose a destination e-mail client.
 
     *   If you want to use some random e-mail address. Checkout https://www.spaml.de/ & Create a free e-mail client for some period of time.
 
 *   User name for the login should be a complete email address Eg: username@gmail.com
 
-*   By default, G-Mail assumes all the login connections from a code as less secure and throw smtplib.SMTPAuthenticationError. To resolve that error, do the following:
+*   By default, G-Mail assumes all the login connections from a code as less secure and throw `smtplib.SMTPAuthenticationError`. To resolve this error, do the following:
 
     *   Go to the G-Mail a/c in browser, Login into the a/c
 
